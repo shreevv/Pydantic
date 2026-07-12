@@ -1,8 +1,6 @@
 #Optional, Field and Different datatypes of Pydantic
 from typing import Annotated, Optional, List, Dict
-
 from pydantic import BaseModel, Field, EmailStr, AnyUrl
-
 
 class Patient(BaseModel):
     name: Annotated[
